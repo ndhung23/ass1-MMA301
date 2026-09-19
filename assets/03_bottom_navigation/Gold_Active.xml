@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="28.000000dip" android:width="28.000000dip" android:autoMirrored="true" android:viewportWidth="28.000000" android:viewportHeight="28.000000">
+  <path android:fillColor="#FF185ECE" android:pathData="M14,14m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" android:strokeColor="#00000000" android:strokeWidth="1.000000"/>
+  <path android:fillColor="#00000000" android:pathData="M14,14m-13.5,0a13.5,13.5 0,1 1,27 0a13.5,13.5 0,1 1,-27 0" android:strokeColor="#FFFAFAFA" android:strokeWidth="1.000000"/>
+  <group>
+    <clip-path android:pathData="M6,6h16v16h-16z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M14,14m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M14,14m-6.4,0a6.4,6.4 0,1 1,12.8 0a6.4,6.4 0,1 1,-12.8 0" android:strokeColor="#00000000" android:strokeWidth="1.000000"/>
+    <path android:fillColor="#00000000" android:pathData="M14,14m-5.9,0a5.9,5.9 0,1 1,11.8 0a5.9,5.9 0,1 1,-11.8 0" android:strokeColor="#FF185ECE" android:strokeWidth="1.000000"/>
+    <path android:fillColor="#FF185ECE" android:pathData="M14,11.333L14,11.333A0.8,0.8 0,0 1,14.8 12.133L14.8,15.866A0.8,0.8 0,0 1,14 16.666L14,16.666A0.8,0.8 0,0 1,13.2 15.866L13.2,12.133A0.8,0.8 0,0 1,14 11.333z"/>
+  </group>
+</vector>
