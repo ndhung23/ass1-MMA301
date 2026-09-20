@@ -145,6 +145,8 @@ const AllAppsScreen = () => {
           </View>
           <View style={styles.itemContent}>
             <Text style={styles.itemTitle}>My Tasks</Text>
+            <Text style={styles.itemDesc} numberOfLines={1}>
+            </Text>
           </View>
         </TouchableOpacity>
 
@@ -179,7 +181,7 @@ const AllAppsScreen = () => {
 
         <TouchableOpacity style={styles.itemRow} activeOpacity={0.6}>
           <View style={styles.iconCircle}>
-            <RemoteIcon uri={`${BASE_URL}/05_ui_error/survey_trans.png`} width={42} height={42} />
+            <RemoteIcon uri={`${BASE_URL}/05_ui_error/survey_trans_ui.png`} width={55} height={55} />
           </View>
           <View style={styles.itemContent}>
             <Text style={styles.itemTitle}>Survey</Text>
@@ -192,7 +194,7 @@ const AllAppsScreen = () => {
 
         <TouchableOpacity style={styles.itemRow} activeOpacity={0.6}>
           <View style={styles.iconCircle}>
-            <RemoteIcon uri={`${BASE_URL}/01_app_features/FPT_Dating_transparent.png`} width={42} height={42} />
+            <RemoteIcon uri={`${BASE_URL}/05_ui_error/dating_tras.png`} width={120} height={70} />
           </View>
           <View style={styles.itemContent}>
             <Text style={styles.itemTitle}>FPT Dating</Text>
@@ -219,7 +221,9 @@ const AllAppsScreen = () => {
           <View style={styles.itemContent}>
             <Text style={styles.itemTitle}>Birthday</Text>
             <Text style={styles.itemDesc} numberOfLines={3}>
-              Your birthday is a special moment. We're very happy to send the best wishes for you. Colleagues can send you birthday wishes on myFPT.
+              Your birthday is a special moment. We're very happy to send the best wishes for you.
+            </Text>
+            <Text style={styles.itemDesc} numberOfLines={3}>Colleagues can send you birthday wishes on myFPT.
             </Text>
           </View>
         </TouchableOpacity>
@@ -379,7 +383,7 @@ const ProfileScreen = () => {
             <RemoteIcon uri={`${BASE_URL}/02_profile_menu/Logout.svg`} width={22} height={22} />
             <Text style={styles.profileMenuTitle}>Logout</Text>
           </View>
-          <Text style={styles.profileArrow}>›</Text>
+          <Text style={styles.profileArrow}></Text>
         </TouchableOpacity>
       </View>
 
