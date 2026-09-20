@@ -179,7 +179,7 @@ const AllAppsScreen = () => {
 
         <TouchableOpacity style={styles.itemRow} activeOpacity={0.6}>
           <View style={styles.iconCircle}>
-            <RemoteIcon uri={`${BASE_URL}/05_ui_error/ic_bg_check_in_online_course_survey.png`} width={42} height={42} />
+            <RemoteIcon uri={`${BASE_URL}/05_ui_error/survey_trans.png`} width={42} height={42} />
           </View>
           <View style={styles.itemContent}>
             <Text style={styles.itemTitle}>Survey</Text>
